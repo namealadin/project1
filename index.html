@@ -23,6 +23,16 @@
             </div>
             <div data-role="content" data-theme="b">
                 <h2>Your budget calculation for this month:</h2>
+                <ul>
+                    <li id="tIncome">INCOME:</li>
+                    <li id="tExpense">EXPENSES:</li>
+                    <li id="tSaving">SAVINGS:</li>
+                    <li id="tBudget">BUDGET:</li>
+                </ul>
+
+                <input type="button" id="showFlist"
+                    value="Show FULL LIST"><br /><br />
+                
             </div>
             <div data-role="footer" data-theme='a'>
                 <h1>Copywrite ALADIN 2020</h1>
@@ -43,6 +53,14 @@
             </div>
             <div data-role="content" data-theme='b'>
                 <h2>Add New Income:</h2>
+                <label for="nIncome">Name of income:</label>
+                <input type="text" id="nIncome"><br />
+                <label for="amnIncome">Amount of Income (US currency $):</label>
+                <input type="text" id="amnIncome"><br />
+
+                <input type="button" id="addIncome"
+                    value="Add Income"><br /><br />
+                <input type="button" id="clear" value="Clear">
             </div>
             <div data-role="footer" data-theme='a'>
                 <h1>Copywrite ALADIN 2020</h1>
@@ -63,6 +81,14 @@
             </div>
             <div data-role="content" data-theme='b'>
                 <h2>Add New Expense:</h2>
+                <label for="nExpense">Name of Expense:</label>
+                <input type="text" id="nExpense"><br />
+                <label for="amnExpense">Amount of Expense (US currency $):</label>
+                <input type="text" id="amnExpense"><br />
+
+                <input type="button" id="addExpense"
+                    value="Add Expense"><br /><br />
+                <input type="button" id="clear" value="Clear">
             </div>
             <div data-role="footer" data-theme='a'>
                 <h1>Copywrite ALADIN 2020</h1>
@@ -83,6 +109,13 @@
             </div>
             <div data-role="content" data-theme='b'>
                 <h2>Add New Saving:</h2>
+                <label for="aSaving">How much would you like to save?:</label>
+                <input type="text" id="aSaving"><br />
+
+                <input type="button" id="addSaving"
+                    value="Save it!"><br /><br />
+                <input type="button" id="clear" value="Clear">
+
             </div>
             <div data-role="footer" data-theme='a'>
                 <h1>Copywrite ALADIN 2020</h1>
